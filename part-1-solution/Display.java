@@ -18,6 +18,9 @@ public class Display {
   public void setColorSupport (int colorSupport){
     this.colorSupport=colorSupport;
   }
+  public int getColorsupport() {
+    return colorSupport;
+  }
   public int getCost(){
     return cost;
   }
